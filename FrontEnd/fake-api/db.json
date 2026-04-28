@@ -104,5 +104,48 @@
       "id": "uldOd9Fb3zU"
     }
   ],
+  "calculadora": [
+    {
+      "n1": 30,
+      "n2": 37,
+      "operacao": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {}
+      },
+      "resultado": "67.00",
+      "id": "q533r0Q7RmE"
+    },
+    {
+      "n1": 20,
+      "n2": 22,
+      "op": "soma",
+      "resultado": "42.00",
+      "id": "r_cXnslXssE"
+    },
+    {
+      "n1": 100,
+      "n2": 33,
+      "op": "subtracao",
+      "resultado": "67.00",
+      "id": "ZgdfZ6-kz38"
+    },
+    {
+      "n1": 21,
+      "n2": 2,
+      "op": "multiplicacao",
+      "resultado": "42.00",
+      "id": "3i8_gfCLLtc"
+    },
+    {
+      "n1": 800,
+      "n2": 733,
+      "op": "subtracao",
+      "resultado": "67.00",
+      "id": "m9CHkaBPXYA"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
