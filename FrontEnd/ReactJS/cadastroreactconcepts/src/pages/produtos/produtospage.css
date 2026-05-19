@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    background-color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container__produtos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.formulario__cds {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(112, 112, 112, 0.3);
+}
+
+.formulario__cds h1 {
+    margin: 0;
+    text-align: center;
+    color: #3483fa;
+    font-size: 32px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.campo label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #3483fa;
+}
+
+.formulario__cds input,
+.formulario__cds textarea {
+    padding: 8px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(112, 112, 112, 0.3);
+}
+
+.formulario__cds input,
+.formulario__cds textarea,
+.upload__imagem {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario__cds textarea {
+    height: 60px;
+    resize: none;
+}
+
+.formulario__cds button {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3483fa;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight:lighter;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.formulario__cds button:hover {
+    transform: scale(1.03);
+}
+
+.formulario__cds input,
+.formulario__cds textarea {
+    width: 520px;
+}
+
+.upload__imagem {
+    width: 520px;   
+    padding: 10px;
+    border: 2px solid #3483fa;
+    border-radius: 8px;
+    text-align: center;
+    color: #e6e6e6;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.upload__imagem:hover {
+    background-color: #ebf3ff;
+}
+
+.upload__imagem input {
+    display: none;
+}
+
+.produtos__cadastrados {
+    width: 1200px;
+    padding-top: 50px;
+    margin: 1px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.produtos__cadastrados h2 {
+    margin: 0;
+    color: #3483fa;
+    font-size: 28px;
+}
+
+.linha__pdt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.produto__cartao {
+    min-width: 280px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(112, 112, 112, 0.2);
+    transition: 0.3s;
+}
+
+.produto__cartao:hover {
+    transform: scale(1.02);
+}
+
+.produto__cartao img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.produto__infos {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.produto__infos h3 {
+    margin: 0;
+    color: #3483fa;
+    font-size: 20px;
+}
+
+.produto__infos p {
+    margin: 0;
+    color: #b4b4b4;
+    font-size: 14px;
+}
+
+.produto__infos span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}

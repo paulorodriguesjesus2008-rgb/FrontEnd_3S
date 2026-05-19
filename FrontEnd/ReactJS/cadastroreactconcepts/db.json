@@ -1,0 +1,20 @@
+{
+  "produtos": [
+    {
+      "titulo": "Trionda",
+      "descricao": "Bola da copa da copa do mundo",
+      "preco": "1.000",
+      "imagem": "C:\\fakepath\\futebol.jpg",
+      "id": "cwORgwrF2bI"
+    },
+    {
+      "titulo": "Nike club",
+      "descricao": "blusa de frio ",
+      "preco": "500.00",
+      "imagem": "hero.png",
+      "id": "Iw5ESunaHvQ"
+    }
+  
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

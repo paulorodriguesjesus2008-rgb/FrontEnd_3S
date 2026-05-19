@@ -6,13 +6,13 @@ return(
 
 
   <>
-    <Title texto = "Bem vindo, sou Título" />
+    <Title nome = "Paulo"  sobrenome = "Silva" texto="Bem vindo, sou Título"/>
     <Title texto = "Eu sou outro Título" />
     <Paragrafo textoParagrafo = "Este é o texto do parágrafo" />
   </>
    );
 }
 
-export default App
+export default App;
 
 //criar um componente Title.jsx
