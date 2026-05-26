@@ -1,0 +1,9 @@
+{
+  "Generos": [
+    {
+      "nome": "Comedia",
+      "id": "SHEA3GZNbww"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
