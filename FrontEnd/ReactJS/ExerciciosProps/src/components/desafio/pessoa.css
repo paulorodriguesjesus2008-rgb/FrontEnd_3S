@@ -1,0 +1,16 @@
+.pessoa {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(179, 182, 82);
+    text-align: center;
+    color: black;
+}
+
+.foto-city {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}

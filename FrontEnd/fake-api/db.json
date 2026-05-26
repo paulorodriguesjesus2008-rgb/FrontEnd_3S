@@ -1,0 +1,151 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Paulo andre",
+      "idade": 17,
+      "email": "pa@gmail.com"
+    },
+    {
+      "id": "2",
+      "nome": "Davi Muniz",
+      "idade": 17,
+      "email": "davi@gmail.com"
+    },
+    {
+      "id": "FZNazEyj94g"
+    },
+    {
+      "id": "VvNMvquPvfc",
+      "nome": " henrique nascimento",
+      "idade": 17,
+      "email": "hen@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "texto": "",
+      "imagem": "",
+      "qtdCurtidas": "",
+      "id": "2BfRlPmlh5g"
+    },
+    {
+      "texto": "Neymar no PSG",
+      "imagem": "https://images.ctfassets.net/3mv54pzvptwz/5NlCRlTMSziMaRUQtvaCPi/b908f9aa38ad78e930dc77c7a90cdc7f/NJR_GOAL_OF_THE_WEEK_PSG.jpg",
+      "qtdCurtidas": "100M",
+      "id": "XHiDyDVevwg"
+    }
+  ],
+  "frutas": [],
+  "jogos": [],
+  "imc": [
+    {
+      "nome": "davi",
+      "altura": 1.7,
+      "peso": 65,
+      "IMC": 22.49134948096886,
+      "situacao": "Saudável",
+      "id": "jyGJ8TB0K6Q"
+    },
+    {
+      "nome": "Paulo",
+      "altura": 1.75,
+      "peso": 60,
+      "IMC": 19.591836734693878,
+      "situacao": "Saudável",
+      "id": "Rp4KnWv4f6g"
+    },
+    {
+      "nome": "gabriel",
+      "altura": 1.76,
+      "peso": 68,
+      "IMC": 21.952479338842977,
+      "situacao": "Saudável",
+      "id": "eoA0JRVuI30"
+    },
+    {
+      "nome": "gustavo silva",
+      "altura": 1.74,
+      "peso": 80,
+      "IMC": 26.42356982428326,
+      "situacao": "Sobrepeso",
+      "id": "oSEMT3fKvD8"
+    },
+    {
+      "nome": "henrique",
+      "altura": 1.7,
+      "peso": 60,
+      "IMC": 20.761245674740486,
+      "situacao": "Saudável",
+      "id": "mB-BS1XQk9U"
+    },
+    {
+      "nome": "alyson",
+      "altura": 1.83,
+      "peso": 90,
+      "IMC": 26.874496103198062,
+      "situacao": "Sobrepeso",
+      "id": "hxY8x4wCV1E"
+    },
+    {
+      "nome": "lorenzo",
+      "altura": 1.77,
+      "peso": 70,
+      "IMC": 22.34351559258195,
+      "situacao": "Saudável",
+      "id": "WNgldOECV7A"
+    },
+    {
+      "nome": "Eduardo Alencar",
+      "altura": 1.7,
+      "peso": 65,
+      "IMC": 22.49134948096886,
+      "situacao": "Saudável",
+      "id": "uldOd9Fb3zU"
+    }
+  ],
+  "calculadora": [
+    {
+      "n1": 30,
+      "n2": 37,
+      "operacao": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {}
+      },
+      "resultado": "67.00",
+      "id": "q533r0Q7RmE"
+    },
+    {
+      "n1": 20,
+      "n2": 22,
+      "op": "soma",
+      "resultado": "42.00",
+      "id": "r_cXnslXssE"
+    },
+    {
+      "n1": 100,
+      "n2": 33,
+      "op": "subtracao",
+      "resultado": "67.00",
+      "id": "ZgdfZ6-kz38"
+    },
+    {
+      "n1": 21,
+      "n2": 2,
+      "op": "multiplicacao",
+      "resultado": "42.00",
+      "id": "3i8_gfCLLtc"
+    },
+    {
+      "n1": 800,
+      "n2": 733,
+      "op": "subtracao",
+      "resultado": "67.00",
+      "id": "m9CHkaBPXYA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
