@@ -185,7 +185,7 @@ const CadastroGenero = () => {
                 <Cadastro
                     tituloCadastro="Cadastro de Gênero"
                     visibilidade="none"
-                    placeHolder="gênero"
+                    placeholder="gênero"
                     valor={valor}
                     // função que muda o state
                     cancelarEdicao={limparFormulario}

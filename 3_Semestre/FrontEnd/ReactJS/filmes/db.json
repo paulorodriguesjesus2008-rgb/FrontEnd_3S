@@ -1,8 +1,36 @@
 {
   "Generos": [
     {
+      "nome": "Ação",
+      "id": "O8Na7aysoc8"
+    },
+    {
+      "nome": "Terror",
+      "id": "0bCc427tPrw"
+    },
+    {
+      "nome": "Suspense",
+      "id": "pIE0UUGGqiw"
+    },
+    {
       "nome": "Comedia",
-      "id": "SHEA3GZNbww"
+      "id": "ouqHGHNU4ro"
+    }
+  ],
+  "Filmes": [
+    {
+      "titulo": "Velozes e Furiosos 9",
+      "id": "O8Na7aysoc8",
+      "genero": {
+        "nome": "Ação"
+      }
+    },
+    {
+      "titulo": "Gente Grande",
+      "id": "gkw3RN8sa0",
+      "genero": {
+        "nome": "Comédia"
+      }
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
